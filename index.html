@@ -3,25 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Second Assignment</title>
     <link rel="stylesheet" href="style/nav.css">
 </head>
-<body>
+<body class="noto-serif-font">
     <header>
-       <nav class="nav-main">
-        <img src="assets/logo.png" alt="">
-        <div class="div-logo-main">
-            <div class="ul-div-cart">
+      <nav>
+        <div class="nav-div-main">
+            <img src="assets/logo.png" alt="">
+            <div class="nav-ul-div">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Shop</a></li>
-                    <li><a href="">About us</a></li>
-                    <li><a href="">Cart ($56)</a></li>
+                    <li><a id="home" href="">Home</a></li>
+                    <li><a id="sa" href="">Shop</a></li>
+                    <li><a id="sa" href="">About us</a></li>
+                    <li><a id="cart" href="">Cart ($56)</a></li>
                 </ul>
-                
             </div>
         </div>
-       </nav>
+
+        <div class="h-text-pic-div">
+            <div class="div-text">
+                <h1> <span id="always">ALWAYS </span> <span id="fresh"> FRESH</span> <span id="flowers">FLOWERS</span></h1>
+                <p id="paragrap-nav">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+            </div>
+            <div class="div-picture">
+                <img src="assets/hero-flower.png" alt="">
+            </div>
+        </div>
+
+      </nav>
     </header>
     <main>
 
