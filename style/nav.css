@@ -1,0 +1,16 @@
+/* nav section style */
+nav ul{
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+}
+
+nav-main{
+    display: flex;
+    justify-content: space-between;
+}
