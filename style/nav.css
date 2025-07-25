@@ -36,6 +36,7 @@ body{
     display: flex;
     gap: 50px;
 }
+
 #home{
     color: #252432;
     font-weight: bold;
