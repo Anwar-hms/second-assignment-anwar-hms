@@ -311,41 +311,103 @@ ul{
   .nav-ul-div ul li:not(.fa-cart-plus) {
     display: none;
   }
+
   .nav-div-main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
   }
 
-  .h-text-pic-div{
+  .div-picture {
+    width: 100%;
+    max-width: 390px;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .div-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #always, #fresh, #flowers {
+    font-size: 1.25rem;
+  }
+
+  #paragrap-nav {
+    font-size: 1rem;
+  }
+
+  .h-text-pic-div {
+    display: flex;
     flex-direction: column-reverse;
+    margin: 0 auto;
+    margin-top: 100px;
+    align-items: flex-start;
+    gap: 20px;
   }
-  .card-div-main{
+
+  .card-div-main {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
   }
-  .section-second #pic-badge:not(.pic-badge){
+
+  #pic-badge {
     display: none;
   }
-.s-second-div-main{
-    flex-direction: column;
-}
-.img-second-s{
-     width: 100%;
-  display: block;
-  height: auto;
-  margin-top: 50px;
-}
-.container{
-    grid-template-columns: repeat(1, 1fr );
-    width: 100%;
-}
-.div-footer-main{
-    flex-direction: column;
-}
-.menu-main-div{
-    flex-direction: column;
-}
 
+  .s-second-div-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-second-s {
+    width: 100%;
+    display: block;
+    height: auto;
+    margin-top: 50px;
+  }
+
+  .section-second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+  }
+
+  .div-footer-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-five {
+    width: 100%;
+    max-width: 390px;
+    padding: 10px;
+  }
+
+  .div-five {
+    width: 100%;
+    max-width: 321px;
+    height: auto;
+  }
 }
-   
-    
