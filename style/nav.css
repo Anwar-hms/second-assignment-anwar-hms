@@ -355,6 +355,12 @@ ul{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 0 auto;
+    padding: 0 10px;
+    width: 100%;
+    gap: 15px;
+  }
+  .card-div-main > div{
+    width: 100%;
   }
 
   #pic-badge {
@@ -362,9 +368,9 @@ ul{
   }
 
   .s-second-div-main {
-    display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
 
   .img-second-s {
@@ -372,6 +378,7 @@ ul{
     display: block;
     height: auto;
     margin-top: 50px;
+    object-fit: cover;
   }
 
   .section-second {
@@ -379,6 +386,7 @@ ul{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
   }
 
   .container {
@@ -403,6 +411,7 @@ ul{
     width: 100%;
     max-width: 390px;
     padding: 10px;
+    height: auto;
   }
 
   .div-five {
